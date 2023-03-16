@@ -1,10 +1,10 @@
-	.file	"0-main.c"
+	.file	"100-main.c"
 	.intel_syntax noprefix
 # GNU C17 (Ubuntu 9.4.0-1ubuntu1~20.04.1) version 9.4.0 (x86_64-linux-gnu)
 #	compiled by GNU C version 9.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
 
 # GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-# options passed:  -imultiarch x86_64-linux-gnu 0-main.c -masm=intel
+# options passed:  -imultiarch x86_64-linux-gnu 100-main.c -masm=intel
 # -mtune=generic -march=x86-64 -Og -fverbose-asm
 # -fasynchronous-unwind-tables -fstack-protector-strong -Wformat
 # -Wformat-security -fstack-clash-protection -fcf-protection
@@ -44,14 +44,27 @@
 # -mstv -mtls-direct-seg-refs -mvzeroupper
 
 	.text
+	.section	.rodata.str1.1,"aMS",@progbits,1
+.LC0:
+	.string	"Holberton School"
+	.text
 	.globl	main
 	.type	main, @function
 main:
 .LFB23:
 	.cfi_startproc
 	endbr64	
-# 0-main.c:10: }
+	sub	rsp, 8	#,
+	.cfi_def_cfa_offset 16
+# /usr/include/x86_64-linux-gnu/bits/stdio2.h:107:   return __printf_chk (__USE_FORTIFY_LEVEL - 1, __fmt, __va_arg_pack ());
+	lea	rsi, .LC0[rip]	#,
+	mov	edi, 1	#,
 	mov	eax, 0	#,
+	call	__printf_chk@PLT	#
+# 100-main.c:12: }
+	mov	eax, 0	#,
+	add	rsp, 8	#,
+	.cfi_def_cfa_offset 8
 	ret	
 	.cfi_endproc
 .LFE23:
