@@ -11,6 +11,15 @@
 */
 int main(void)
 {
+int i;
+
+/* your code goes there */
 char my_list[100]={"abcdefghijklmnopqrstuvwxyz"};
-putchar(my_list);
+
+for (i = 0;i < 26; i++)
+{
+	putchar(my_list[i]);
+}
+printf("\n");
+return 0;
 }
