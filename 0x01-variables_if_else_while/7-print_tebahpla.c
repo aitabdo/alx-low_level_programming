@@ -19,7 +19,7 @@ char L[27] = {"abcdefghijklmnopqrstuvwxyz"};
 
 for (i = 0; i < 26; i++)
 {
-	putchar(L[(strlen(L) -1 ) - i]);
+	putchar(L[(strlen(L) - 1) - i]);
 }
 printf("\n");
 return (0);
