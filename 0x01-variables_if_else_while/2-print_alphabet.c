@@ -14,12 +14,12 @@ int main(void)
 int i;
 
 /* your code goes there */
-char my_list[100]={"abcdefghijklmnopqrstuvwxyz"};
+char my_list[100] = {"abcdefghijklmnopqrstuvwxyz"};
 
-for (i = 0;i < 26; i++)
+for (i = 0; i < 26; i++)
 {
 	putchar(my_list[i]);
 }
 printf("\n");
-return 0;
+return (0);
 }
