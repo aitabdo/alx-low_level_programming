@@ -14,15 +14,15 @@ int main(void)
 int i;
 
 /* your code goes there */
-int l[11] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+int L[11] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 
 for (i = 0 ; i < 9 ; i++)
 {
-	putchar(l[i] + '0');
+	putchar(L[i] + '0');
 	putchar(',');
 	putchar(' ');
 }
-putchar(a[9] + '0');
+putchar(L[9] + '0');
 printf("\n");
 return (0);
 }
