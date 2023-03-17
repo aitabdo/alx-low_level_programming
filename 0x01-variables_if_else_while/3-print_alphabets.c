@@ -23,7 +23,7 @@ for (i = 0; i < 26; i++)
 }
 for (i = 0; i < 26; i++)
 {
-        putchar(my_list1[i]);
+	putchar(my_list1[i]);
 }
 printf("\n");
 return (0);
