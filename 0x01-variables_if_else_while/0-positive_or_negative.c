@@ -2,9 +2,10 @@
 #include<stdio.h>
 #include <time.h>
 /* more headers goes there */
-/*fuction main returns whether n is positive/negative/null*/
-/* betty style doc for function main goes there */
 
+/*fuction main returns whether n is positive/negative/null*/
+
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
