@@ -6,7 +6,7 @@
 * main - print if the number is postive, zero, or negative
 *
 * Description: using the main function
-* this program prints "the number n is positive, zero, or negative
+* this program prints "the last digit of the number stored in the variable n
 * Return: 0
 */
 int main(void)
@@ -21,15 +21,15 @@ int main(void)
 	x = n % 10;
 	if (x > 5)
 	{
-		printf("%d and is greater than 5\n", x);
+		printf("%d and is greater than 5", x);
 	}
 	if (x == 0)
-        {
-		printf("%d and is 0\n", x);
+	{
+		printf("%d and is 0", x);
         }
 	if (x < 6 && x != 0)
         {
-		printf("%d and is less than 6 and not 0\n", x);
+		printf("%d and is less than 6 and not 0", x);
         }
 	return (0);
 }
