@@ -15,8 +15,7 @@ int i;
 
 /* your code goes there */
 char my_list[100] = {"abcdefghijklmnopqrstuvwxyz"};
-
-char my_list_1[100] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZ"};
+char my_list1[100] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZ"};
 
 for (i = 0; i < 26; i++)
 {
@@ -24,7 +23,7 @@ for (i = 0; i < 26; i++)
 }
 for (i = 0; i < 26; i++)
 {
-        putchar(my_list_1[i]);
+        putchar(my_list1[i]);
 }
 printf("\n");
 return (0);
