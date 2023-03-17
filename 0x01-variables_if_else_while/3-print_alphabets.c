@@ -14,16 +14,16 @@ int main(void)
 int i;
 
 /* your code goes there */
-char my_list[100] = {"abcdefghijklmnopqrstuvwxyz"};
-char my_list1[100] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZ"};
+char L[100] = {"abcdefghijklmnopqrstuvwxyz"};
+char N[100] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZ"};
 
 for (i = 0; i < 26; i++)
 {
-	putchar(my_list[i]);
+	putchar(L[i]);
 }
 for (i = 0; i < 26; i++)
 {
-	putchar(my_list1[i]);
+	putchar(N[i]);
 }
 printf("\n");
 return (0);
