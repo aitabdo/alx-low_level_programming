@@ -18,7 +18,7 @@ int main(void)
 
 	for (i = 0 ; i < 10 ; i++)
 	{
-		putchar(a[i]);
+		putchar(a[i] + '0');
 	}
 	printf("\n");
 	return (0);
