@@ -6,12 +6,20 @@
 * main - print if the number is postive, zero, or negative
 *
 * Description: using the main function
-* this program prints "123456789
+* this program prints "0123456789
 * Return: 0
 */
 int main(void)
 {
-/* your code goes there */
-printf("0123456789\n");
-return (0);
+	int i;
+
+	/* your code goes there */
+	int a[11] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+	for (i = 0 ; i < 10 ; i++)
+	{
+		putchar(a[i]);
+	}
+	printf("\n");
+	return (0);
 }
