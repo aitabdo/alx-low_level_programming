@@ -19,7 +19,7 @@ int main(void)
 	printf("Last digit of %d is ", n);
 	while (n % 10 != n)
 	{
-		x = n % 10
+		x = n % 10;
 		n = n / 10;
 	}
 	if (n > 5)
