@@ -18,8 +18,8 @@ int main(void)
 
 	for (i = 0 ; i < 10 ; i++)
 	{
-		putchar(a[i] + '0');
+		putchar(a[i]);
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
