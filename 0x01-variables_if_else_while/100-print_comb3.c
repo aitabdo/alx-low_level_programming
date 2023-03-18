@@ -12,13 +12,14 @@
 int main(void)
 {
 int i;
+int j;
 
 /* your code goes there */
 int a[12] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 int b[12] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 for (i = 0 ; i < 8 ; i++)
 {
-	for (int j = 0 ; j < 10 ; j++)
+	for (j = 0 ; j < 10 ; j++)
 	{
 		if (i < j)
 		{
