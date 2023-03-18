@@ -20,6 +20,6 @@ for (i = 0; i < 24; i++)
 {
 	putchar(my_list[i]);
 }
-printf("\n");
+putchar('\n');
 return (0);
 }
