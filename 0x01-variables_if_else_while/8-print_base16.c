@@ -24,6 +24,6 @@ for (i = 0 ; i < 6 ; i++)
 {
 	putchar(n[i]);
 }
-printf("\n");
+putchar('\n');
 return (0);
 }
