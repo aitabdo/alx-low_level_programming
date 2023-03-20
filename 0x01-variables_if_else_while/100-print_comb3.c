@@ -3,32 +3,41 @@
 #include <time.h>
 
 /**
-* main -  prints all possible different combinations of two digits
+* main -  prints all possible different combinations of three digits
 *
 * Description: using the main function
-* this program prints "possible different combinations of two digits
+* this program prints "possible different combinations of three digits
 * Return: 0
 */
 int main(void)
 {
 int i;
 int j;
-
-/* your code goes there */
+int k;
 int a[12] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
 int b[12] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
-for (i = 0 ; i < 9 ; i++)
+int c[12] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+/* your code goes there */
+for (i = 0 ; i < 8 ; i++)
 {
-	for (j = 0 ; j < 10 ; j++)
+	for (j = 0 ; j < 9 ; j++)
 	{
 		if (i < j)
 		{
-			putchar(a[i] + '0');
-			putchar(b[j] + '0');
-			if (a[i] != 8 || b[j] != 9)
+			for (k = 0 ; k < 10 ; k++)
 			{
-				putchar(',');
-				putchar(' ');
+				if (j < k)
+				{
+					putchar(a[i] + '0');
+					putchar(b[j] + '0');
+					putchar(c[k] + '0');
+					if (a[i] != 7 || b[j] != 8 || c[k] != 9)
+					{
+						putchar(',');
+						putchar(' ');
+					}
+				}
 			}
 		}
 	}
