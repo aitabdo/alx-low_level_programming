@@ -12,6 +12,7 @@
 int main(void)
 {
 	char b[9] = "_putchar";
+	int i;
 
 	for (i = 0 ; i < 9 ; i++)
 	{
