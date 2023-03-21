@@ -20,7 +20,9 @@ int _isalpha(int c)
 			d = 1;
 		}
 		else
+		{
 			d = 0;
+		}
 	}
 	for (i = 0 ; i < 26 ; i++)
 	{
@@ -29,7 +31,9 @@ int _isalpha(int c)
 			d = 1;
 		}
 		else
+		{
 			d = 0;
+		}
 	}
 	return (d);
 }
