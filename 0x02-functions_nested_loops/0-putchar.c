@@ -18,6 +18,6 @@ int main(void)
 	{
 		_putchar(b[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
