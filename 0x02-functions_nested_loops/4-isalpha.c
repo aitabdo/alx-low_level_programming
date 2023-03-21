@@ -17,22 +17,22 @@ int _isalpha(int c)
 	{
 		if (a[i] != c)
 		{
-			d = 1;
+			d = 0;
 		}
 		else
 		{
-			d = 0;
+			d = 1;
 		}
 	}
 	for (i = 0 ; i < 26 ; i++)
 	{
 		if (b[i] != c)
 		{
-			d = 1;
+			d = 0;
 		}
 		else
 		{
-			d = 0;
+			d = 1;
 		}
 	}
 	return (d);
