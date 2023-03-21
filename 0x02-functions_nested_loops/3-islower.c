@@ -1,16 +1,17 @@
 #include "main.h"
 #include<stdio.h>
+
 /**
- * print_alphabet_x10 - function to print abc 10 times
- *
+ * _islower - function to check for lowercase character
+ * @c:  is the int that will use for the argument of the function
  * Return: 0
  */
-int _islower(char c)
+int _islower(int c)
 {
 	char a[27] = "abcdefghijklmnopqrstuvwxyz";
 	char b[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
-	bool d = 0;
+	int d = 0;
 
 	for (i = 0 ; i < 26 ; i++)
 	{
