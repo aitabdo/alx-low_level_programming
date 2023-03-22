@@ -13,20 +13,20 @@ int print_sign(int n)
 		_putchar('+');
 		_putchar(',');
 		_putchar(' ');
-		return (1);
+		_putchar(1 + '0');
 	}
 	if (n < 0)
 	{
 		_putchar('-');
 		_putchar(',');
 		_putchar(' ');
-		return (-1);
+		_putchar(-1 + '0');
 	}
 	if (n == 0)
 	{
 		_putchar(0 + '0');
 		_putchar(',');
 		_putchar(' ');
-		return (0);
+		_putchar(0 + '0');
 	}
 }
