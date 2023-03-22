@@ -1,5 +1,4 @@
 #include "main.h"
-#include<stdio.h>
 
 /**
  * jack_bauer - function to print all time
