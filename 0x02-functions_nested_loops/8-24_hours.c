@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 /**
- * _jack_bauer - function to print all time
+ * jack_bauer - function to print all time
  * @void:  is the void that will use for the argument of the function
  * Return: 0
  */
@@ -24,8 +24,10 @@ void jack_bauer(void)
 				{
 					_putchar(a[i] + '0');
 					_putchar(b[j] + '0');
+					_putchar(':');
 					_putchar(c[k] + '0');
 					_putchar(d[l] + '0');
+					_putchar('\n');
 				}
 			}
 		}
