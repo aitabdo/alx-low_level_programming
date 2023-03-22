@@ -22,7 +22,7 @@ void jack_bauer(void)
 			{
 				for (l = 0 ; l < 10 ; l++)
 				{
-					if (a[i] == 2 && b[j] >= 4)
+					if (a[i] >= 2 && b[j] >= 4)
 					{
 						break;
 					}
