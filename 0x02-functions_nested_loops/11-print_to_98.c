@@ -16,26 +16,26 @@ void print_to_98(int n)
 		for (i = 0 ; i <= 98 - (n) ; i++)
 		{
 			printf("%d", n + i);
-			if (i != 98 - (n))
+			if (i == 98 - (n))
 			{
-				_putchar(',');
-				_putchar(' ');
+				break;
 			}
+			_putchar(',');
+			_putchar(' ');
 		}
-		_putchar('\n');
 	}
 	else
 	{
 		for (i = 0 ; i <= n - 98 ; i++)
 		{
 			printf("%d", n - i);
-			if (i != n - 98)
+			if (i == n - 98)
 			{
-				_putchar(',');
-				_putchar(' ');
+				break;
 			}
+			_putchar(',');
+			_putchar(' ');
 		}
-		_putchar('\n');
 	}
-
+	_putchar('\n');
 }
