@@ -15,22 +15,7 @@ int _isalpha(int c)
 
 	for (i = 0 ; i < 26 ; i++)
 	{
-		if (a[i] == c)
-		{
-			d = 0;
-		}
-		else
-		{
-			d = 1;
-		}
-	}
-	for (i = 0 ; i < 26 ; i++)
-	{
-		if (b[i] == c)
-		{
-			d = 0;
-		}
-		else
+		if (a[i] == c || b[i] == c)
 		{
 			d = 1;
 		}
