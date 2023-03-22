@@ -2,7 +2,7 @@
 #include<stdio.h>
 
 /**
- * _islower - function to check for lowercase character
+ * print_sign - function to print sign of number
  * @c:  is the int that will use for the argument of the function
  * Return: 0
  */
