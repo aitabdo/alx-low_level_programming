@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include<stdlib.h>
-#include "main.h"
 
 /**
  * main - prints numbers(1-100) but for multiples(3,5)prints FizzBuzz
@@ -30,6 +29,6 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
