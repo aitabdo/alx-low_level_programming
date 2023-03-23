@@ -18,7 +18,7 @@ int main(void)
 		s = a + b;
 		a = b;
 		b = s;
-		printf("%f", s);
+		printf("%g", s);
 		if (i != 97)
 		{
 			putchar(',');
