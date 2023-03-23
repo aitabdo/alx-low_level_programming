@@ -16,9 +16,12 @@ void more_numbers(void)
 	{
 		for (j = 0 ; j < 15 ; j++)
 		{
-			_putchar(a[j] + '0');
+			if (a[j] >= 10)
+			{
+				_putchar(a[j] / 10 + '0');
+			}
+			_putchar(a[j] % 10 + '0');
 		}
 		_putchar('\n');
 	}
-	_putchar('\n');
 }
