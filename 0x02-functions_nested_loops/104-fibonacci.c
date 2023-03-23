@@ -8,9 +8,9 @@
 */
 int main(void)
 {
-	unsigned long a = 0;
-	unsigned long b = 1;
-	unsigned long s = 0;
+	double a = 0;
+	double b = 1;
+	double s = 0;
 	int i;
 
 	for (i = 0 ; i <= 97 ; i++)
@@ -18,7 +18,7 @@ int main(void)
 		s = a + b;
 		a = b;
 		b = s;
-		printf("%lu", s);
+		printf("%d", s);
 		if (i != 97)
 		{
 			putchar(',');
