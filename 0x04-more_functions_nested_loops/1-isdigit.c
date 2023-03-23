@@ -10,7 +10,7 @@ int _isdigit(int c)
 {
 	int i;
 	int v = 0;
-	char b[11] = "0123456789"
+	char b[11] = "0123456789";
 
 	for (i = 0 ; i < 10 ; i++)
 	{
