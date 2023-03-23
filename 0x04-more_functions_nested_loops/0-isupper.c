@@ -6,7 +6,7 @@
  * @c: argument/input for this function
  * Return: 0 - when success
  */
-int _isupper(int c)
+int _isupper(char c)
 {
 	char a[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
