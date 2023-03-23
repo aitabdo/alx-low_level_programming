@@ -13,8 +13,7 @@ void print_most_numbers(void)
 
 	for (i = 0 ; i < 8 ; i++)
 	{
-		_putchar(i + '0');
+		_putchar(a[i] + '0');
 	}
 	_putchar('\n');
-	return (0);
 }
