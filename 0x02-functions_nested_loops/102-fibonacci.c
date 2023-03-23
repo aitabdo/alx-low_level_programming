@@ -8,9 +8,9 @@
 */
 int main(void)
 {
-	unsigned int a = 1;
-	unsigned int b = 2;
-	unsigned int s = 0;
+	unsigned long int a = 1;
+	unsigned long int b = 2;
+	unsigned long int s = 0;
 	int i;
 
 	for (i = 0 ; i <= 49 ; i++)
