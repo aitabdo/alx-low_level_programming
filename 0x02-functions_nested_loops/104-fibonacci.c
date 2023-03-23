@@ -2,8 +2,8 @@
 #include<stdio.h>
 
 /**
-* main - prints fib of n which is 50
-* for loop loops over numbers bellow n-1
+* main - prints fib of n which is 98 here
+* for loop loops n-1 which is 97
 * Return: 0 - when success
 */
 int main(void)
@@ -13,13 +13,13 @@ int main(void)
 	unsigned long int s = 0;
 	int i;
 
-	for (i = 0 ; i <= 49 ; i++)
+	for (i = 0 ; i <= 97 ; i++)
 	{
 		s = a + b;
 		a = b;
 		b = s;
 		printf("%lu", s);
-		if (i != 49)
+		if (i != 97)
 		{
 			putchar(',');
 			putchar(' ');
