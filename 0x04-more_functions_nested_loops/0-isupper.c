@@ -10,17 +10,14 @@ int _isupper(int c)
 {
 	char a[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
+	int b = 0;
 
 	for (i = 0 ; i < 26 ; i++)
 	{
 		if (a[i] == c)
 		{
-			_putchar('1');
-		}
-		else
-		{
-			_putchar('0');
+			b = 1;
 		}
 	}
-	return (0);
+	return (b);
 }
