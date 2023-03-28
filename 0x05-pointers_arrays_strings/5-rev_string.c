@@ -14,10 +14,10 @@ void rev_string(char *s)
 	int tmp;
 
 	j = j - 1;
-	for (i = 0; i < j / 2; i++)
+	for (i = 0; i <= j / 2; i++)
 	{
 		tmp = s[i];
-		s[i] = s[j - 1 -  i];
-		s[j - i] = tmp;
+		s[i] = s[j];
+		s[j] = tmp;
 	}
 }
