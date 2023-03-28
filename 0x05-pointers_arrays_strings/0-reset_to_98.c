@@ -6,7 +6,7 @@
  * @n: argument/input for this function
  * Return: 0 - when success
  */
-int reset_to_98(int *n)
+void reset_to_98(int *n)
 {
 	*n = 98;
 
