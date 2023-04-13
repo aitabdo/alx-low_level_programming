@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int count_word(char *s);
+int count_words(char *s);
 
 /**
 * **strtow - Entry point
