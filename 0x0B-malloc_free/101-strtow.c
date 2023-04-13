@@ -58,7 +58,7 @@ char **strtow(char *str)
 }
 
 /**
-* count_the_fucking_word - Entry point
+* count_words - Entry point
 * @s: variable
 * Return: number of words
 */
