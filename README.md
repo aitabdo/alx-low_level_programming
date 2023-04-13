@@ -1,1 +1,1 @@
-first readme.md in 007 directory
+first readme.md in alx-low_lovel_programming
