@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* By Abdelghni Hamanar */
 /**
 * main - Entry point
 * @argc: variable
