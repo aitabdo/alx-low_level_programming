@@ -6,6 +6,12 @@
 int _strlen(char *s);
 char *_strcpy(char *dest, char *src);
 
+/**
+ * _strlen - Entry point
+ * @s: variable
+ * Return: i
+ */
+
 int _strlen(char *s)
 {
 	int i = 0;
@@ -17,6 +23,13 @@ int _strlen(char *s)
 
 	return (i);
 }
+
+/**
+ * *_strcpy - Entry point
+ * @dest: variable
+ * @src: variable
+ * Return: dest
+ */
 
 char *_strcpy(char *dest, char *src)
 {
