@@ -1,5 +1,6 @@
 #include "main.h"
 #include<stdio.h>
+#include<string.h>
 
 int _is_palindrome(char *s, int i);
 
