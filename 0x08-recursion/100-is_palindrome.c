@@ -33,7 +33,7 @@ int _is_palindrome(char *s, long unsigned int i)
 		return (0);
 	}
 
-	if (i == (strlen(s) / 2))
+	if (i >= (strlen(s) / 2))
 	{
 		return (1);
 	}
