@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<string.h>
 
-int _is_palindrome(char *s, int i);
+int _is_palindrome(char *s, long unsigned int i);
 
 /**
  * is_palindrome - a function that returns 1 if *s is a palindrome and 0 if not
@@ -26,7 +26,7 @@ int is_palindrome(char *s)
  * Return: (Success)
  */
 
-int _is_palindrome(char *s, int i)
+int _is_palindrome(char *s, long unsigned int i)
 {
 	if (*s != s[strlen(s) - i])
 	{
