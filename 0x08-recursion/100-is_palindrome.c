@@ -16,7 +16,7 @@ int is_palindrome(char *s)
 	{
 		return (0);
 	}
-	return (_is_palindrome(s, 1));
+	return (_is_palindrome(s, 0));
 }
 
 /**
@@ -28,7 +28,7 @@ int is_palindrome(char *s)
 
 int _is_palindrome(char *s, long unsigned int i)
 {
-	if (*s != s[strlen(s) - i])
+	if (*s != s[strlen(s) - i - 1])
 	{
 		return (0);
 	}
