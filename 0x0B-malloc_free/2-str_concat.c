@@ -15,7 +15,6 @@ char *str_concat(char *s1, char *s2)
 	unsigned int j = 0;
 	unsigned int len_s1 = 0;
 	unsigned int len_s2 = 0;
-	unsigned int total_size = len_s1 + len_s2;
 	char *t;
 
 	if (!(s1 && s2))
