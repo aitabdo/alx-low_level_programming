@@ -17,7 +17,7 @@ char *str_concat(char *s1, char *s2)
 	unsigned int len_s2 = 0;
 	char *t;
 
-	if (!(s1 && s2))
+	if (!(s1 && s2) || !s1 || !s2)
 	{
 		return (NULL);
 	}
