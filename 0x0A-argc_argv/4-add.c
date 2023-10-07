@@ -15,11 +15,12 @@ int main(int argc, char *argv[])
 
 	if (argc <= 2)
 	{
-		printf("0\n");
+		printf("0");
+		printf("\n");
 	}
 	else
 	{
-		for(i = 1 ; i < argc ; i++)
+		for (i = 1 ; i < argc ; i++)
 		{
 			if (!atoi(argv[i]))
 			{
