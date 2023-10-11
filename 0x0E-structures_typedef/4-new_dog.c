@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include<stdlib.h>
+#include<stddef.h>
 #include "dog.h"
 
 char *_strcpy(char *dest, char *src);
@@ -38,7 +39,7 @@ int _strlen(char *s)
 {
 	int len_s = 0;
 
-	while (s[len_s])
+	while (s[len_s] != '\0')
 	{
 		len_s++;
 	}
