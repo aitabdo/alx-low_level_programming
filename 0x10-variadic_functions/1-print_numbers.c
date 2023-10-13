@@ -30,11 +30,11 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		y = va_arg(args, int);
 		if (!separator)
 		{
-			printf(" %d", y);
+			printf("%d", y);
 		}
 		else
 		{
-			printf(" %d", y);
+			printf("%d", y);
 			if (i != n - 2)
 			{
 				printf("%s", separator);
