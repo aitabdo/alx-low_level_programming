@@ -11,34 +11,21 @@
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
-	int x, y;
 	va_list args;
 
 	va_start(args, n);
-	x = va_arg(args, int);
-	if (!separator)
+	for (i = 0 ; i < n ; i++)
 	{
-		printf("%d", x);
-	}
-	else
-	{
-		printf("%d%s", x, separator);
-	}
-	for (i = 0 ; i < n - 1 ; i++)
-	{
-		y = va_arg(args, int);
 		if (!separator)
 		{
-			printf("%d", y);
+			printf("%d", va_arg(args, int));
+		}
+		else if (separator && i == 0)
+		{
+			printf("%d", va_arg(args, int));
 		}
 		else
-		{
-			printf("%d", y);
-			if (i != n - 2)
-			{
-				printf("%s", separator);
-			}
-		}
+			printf("%s%d", separator, va_arg(args, int));
 	}
 	va_end(args);
 	printf("\n");
