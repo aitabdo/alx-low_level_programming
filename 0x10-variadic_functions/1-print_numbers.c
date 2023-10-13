@@ -24,7 +24,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		printf("%d", x);
 	}
-	print("%d%s", x, separator);
+	printf("%d%s", x, separator);
 	for (i = 0 ; i < n - 1 ; i++)
 	{
 		y = va_arg(args, int);
