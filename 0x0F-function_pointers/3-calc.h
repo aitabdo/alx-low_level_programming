@@ -1,6 +1,6 @@
 #ifndef OPFUNCTIONS
 #define OPFUNCTIONS
-
+#include<string.h>
 /**
  * struct op - Struct op
  *
