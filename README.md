@@ -1,1 +1,1 @@
-first readme.md in alx-low_lovel_programming
+first readme.md in alx-low_level_programming directory
